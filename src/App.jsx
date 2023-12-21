@@ -10,7 +10,7 @@ export default function App() {
   return (
     <div className={styles.app}>
       <h1>Todo List</h1>
-      <TodoCount />
+      <TodoCount todos={todos} />
       <TodoAdd todos={todos} setTodos={setTodos} />
       <TodoList todos={todos} setTodos={setTodos} />
     </div>
